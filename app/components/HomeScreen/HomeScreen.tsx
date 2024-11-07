@@ -22,8 +22,8 @@ export function HomeScreen({
               data-testid={testIds.HOME_PAGE.HEADER}
             >
               <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
-                Chi Thu Hien
-                <br /> Dang di an com
+                Anh Nhat Nam
+                <br /> La Con Trai Dam Dang
                 <br /> TOUR
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
