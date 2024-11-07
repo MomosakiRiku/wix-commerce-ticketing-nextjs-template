@@ -108,3 +108,7 @@ input::-webkit-inner-spin-button {
 input[type='number'] {
   -moz-appearance: textfield;
 }
+
+.background-gradient {
+    background-image: radial-gradient(circle at center top, rgba(71, 120, 235, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
