@@ -21,7 +21,7 @@ export function Shop({ items }: { items: products.Product[] }) {
           className="full-w overflow-hidden mx-auto text-center mt-[-200px] sm:mt-[-130px] px-10"
           data-testid={testIds.PRODUCT_LIST.CONTAINER}
         >
-          <ul className="grid sm:grid-cols-4 gap-8 grid-flow-row">
+          <ul className="grid sm:grid-cols-3 gap-8 grid-flow-row">
             {items.map((item) => (
               <li
                 key={item._id}
