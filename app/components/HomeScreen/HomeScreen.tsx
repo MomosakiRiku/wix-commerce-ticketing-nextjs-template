@@ -22,7 +22,7 @@ export function HomeScreen({
               data-testid={testIds.HOME_PAGE.HEADER}
             >
               <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
-                USA
+                Chi Thu Hien
                 <br /> SUMMER
                 <br /> TOUR
               </h1>
