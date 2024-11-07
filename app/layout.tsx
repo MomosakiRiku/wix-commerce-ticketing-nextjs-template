@@ -28,7 +28,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="https://www.wix.com/favicon.ico" />
       </head>
-      <body className="relative min-h-screen bg-slate-900">
+      <body className="text-black bg-site">
         {process.env.NEXT_PUBLIC_WIX_CLIENT_ID ? (
           <>
             <ClientProvider>
@@ -39,8 +39,6 @@ export default function RootLayout({
               <LoginModal />
             </ClientProvider>
             <div className="mt-10 sm:mt-20">
-            <div className="background-gradient absolute inset-0 -z-50 max-h-screen"></div>
-            <div className="pointer-events-none absolute inset-0 -z-40 h-full opacity-20 mix-blend-soft-light bg-[url('noisetexture.jpg')]"></div>
               <Footer />
             </div>
           </>
